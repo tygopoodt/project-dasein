@@ -1,0 +1,49 @@
+# --- MATLAB ---
+*.asv
+*.m~
+*.mex*
+slprj/
+sccprj/
+codegen/
+*.slxc
+*.autosave
+*.mlappinstall
+*.mltbx
+helpsearch*/
+
+# Large MATLAB result files (commit small ones explicitly with git add -f)
+results/
+*.mat
+
+# --- KiCad ---
+*.kicad_prl
+*-backups/
+fp-info-cache
+*.lck
+\#auto_saved_files\#
+_autosave-*
+# Gerbers are generated; release packages go in GitHub Releases
+gerbers/
+production/
+
+# --- CAD ---
+*.FCStd1
+*.f3d~
+
+# --- Python ---
+__pycache__/
+*.pyc
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# --- Firmware builds ---
+build/
+.pio/
+
+# --- OS / editors ---
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
